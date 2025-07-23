@@ -1,0 +1,71 @@
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+/* nav style */
+nav ul li {
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 150px; */
+  align-items: center;
+  
+}
+.flex{
+  display: flex;
+}
+.nav_link{
+  display: flex;
+  gap: 20px;
+}
+.Ag-text{
+  font-weight: 800;
+  color: #252432;
+}
+.text2{
+  color: #8987A1;
+}
+/* banner style */
+.Hero-banner{
+  margin-top: 120px;
+}
+.banner_left{
+  max-width: 570px;
+
+}
+.banner_left h3{
+  line-height: 0.4;
+}
+.title_text_color{
+  color:  #E95A08;
+}
+.banner_left_title{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.banner_left_description{
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -15px;
+}
+.banner_right img{
+max-width: 100%;
+height: auto;
+object-fit: cover;
+
+
+}
