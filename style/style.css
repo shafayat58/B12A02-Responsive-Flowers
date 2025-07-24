@@ -7,6 +7,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* share color */
+.bg_color{
+  background-color: #e9e8ee;
+}
 .container{
   max-width: 1140px;
   margin: auto;
@@ -160,7 +164,7 @@ margin-top: -30px;
   margin-top: 49px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  row-gap: 30px;
+  row-gap: 35px;
 }
 /* media responsive */
 @media screen and (max-width:768px) {
@@ -271,13 +275,10 @@ margin-top: -30px;
   margin-bottom: 10px;
 }
 
-/* .link {
-  color: green;
-  text-decoration: underline;
-} */
+
 
 .top{
-  background-image: url(../assets/deal-bloom.png);
+  background-image: linear-gradient(rgba(53, 16, 16, 0.765), rgba(37, 11, 11, 0.9)),url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 200px;
@@ -295,7 +296,7 @@ margin-top: -30px;
   
 }
 .down{
-  background-image: url(../assets/deal-ana.png);
+  background-image:linear-gradient(rgba(53, 16, 16, 0.765), rgba(37, 11, 11, 0.9)), url(../assets/deal-ana.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 200px;
