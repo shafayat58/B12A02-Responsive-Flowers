@@ -116,13 +116,13 @@ object-fit: cover;
   line-height: 0.7;
   max-width: 270px;
   
-  
- 
-  
-  
+}
+.card_name,.card_price{
+  display: flex;
+  justify-content: center;
 }
 
-.card_name, {
+.card_name {
   font-size: 1.37rem;
   color:#111111 ;
   
@@ -155,7 +155,7 @@ margin-top: -30px;
 .card{
   margin-top: 49px;
   display: grid;
-  grid-template-columns: repeat(4,4fr);
+  grid-template-columns: repeat(4,1fr);
   row-gap: 30px;
 }
 /* media responsive */
@@ -167,11 +167,66 @@ margin-top: -30px;
   .card img{
     max-width: 180px;
   }
- plants_sub_title{
+ .plants_sub_title{
   max-width: 1000px;
   
  
 }
   
 }
+.Plants_Lover{
+  margin-top: 210.12px;
+  display: flex;
+  gap: 20px;
+}
+.plants_lover_left_image{
+  max-width: 540px;
+  height: 550px;
+}
+.trusted_badge{
+  position: absolute;
+  top: 1850px;
+  left: 800px;
+  max-width: 286px;
+}
+.plants_lover_right{
+  max-width: 540px;
+  height: 100%;
+  
+}
 
+.plants_lover_right h3{
+  
+  margin-left: 15px;
+  font-size: 4.12rem ;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.plants_lover_right li{
+  margin-bottom:20px;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width:768px) {
+  
+  .trusted_badge{
+    display: none;
+  }.Plants_Lover{
+    flex-direction: column;
+  }
+  .plants_lover_left_image{
+    max-width: 100%;
+   
+  }
+  .plants_lover_right h3{
+  
+  font-size: 2.2rem ;
+  
+}
+.plants_lover_right li{
+ font-size: 1rem;
+}
+  
+ 
+}
