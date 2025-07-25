@@ -228,7 +228,7 @@ margin-top: -30px;
   
   width: 200px;
   height: 200px;
-  box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.25));
   z-index: 10;
 }
 
@@ -427,7 +427,7 @@ margin-top: -30px;
   }
   .join_card {
   
-  grid-template-columns: repeat(1,1fr);
+grid-template-columns: repeat(1,1fr);
 }
 .side{
  width: 100%;
@@ -481,13 +481,11 @@ margin-top: -30px;
 
 .btn_primary {
   height: 50px;
-  /* padding: 0 18px; */
   padding: 0 10px;
   font-size: 1rem;
   background-color: #E95A08;
   color: white;
-  /* border: none;
-  cursor: pointer; */
+  
 }
 /* RESPONSIVE */
 @media screen and  (max-width: 768px) {
