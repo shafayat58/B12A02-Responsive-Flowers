@@ -7,10 +7,21 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 /* share color */
 .bg_color{
   background-color: #e9e8ee;
 }
+* {
+  box-sizing: border-box;
+}
+
 .container{
   max-width: 1140px;
   margin: auto;
@@ -51,9 +62,12 @@ nav ul li a{
 /* banner style */
 .Hero-banner{
   margin-top: 120px;
+  display: flex;
+  justify-content: end;
 }
 .banner_left{
   max-width: 570px;
+  
   
  
 
@@ -196,6 +210,8 @@ margin-top: -30px;
   top: 1850px;
   left: 760px;
   max-width: 286px;
+  box-shadow: 4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+  
 }
 .plants_lover_right{
   max-width: 540px;
@@ -209,10 +225,10 @@ margin-top: -30px;
   font-size: 4.12rem ;
   font-weight: 800;
   color: #000000;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .plants_lover_right li{
-  margin-bottom:20px;
+  margin-bottom:10px;
   font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -281,7 +297,7 @@ margin-top: -30px;
   background-image: linear-gradient(rgba(53, 16, 16, 0.765), rgba(37, 11, 11, 0.9)),url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 200px;
+  max-width: 300px;
   min-height:50px;
   
   background-position: center;
@@ -299,7 +315,7 @@ margin-top: -30px;
   background-image:linear-gradient(rgba(53, 16, 16, 0.765), rgba(37, 11, 11, 0.9)), url(../assets/deal-ana.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 200px;
+  max-width: 300px;
   min-height:50px;
   
   background-position: center;
@@ -311,21 +327,21 @@ margin-top: -30px;
   
   
 }
-.side{
-  background-image: url(../assets/deal-zabo.png);
+
+ .side {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../assets/deal-zabo.png);
+
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  max-height:100%;
-  
+  max-height: 100%;
   background-position: center;
   text-align: center;
-  padding: 300px -30px 50px 300px;
+  padding: 200px 80px  200px; 
   margin-bottom: 10px;
   border-radius: 14px;
-  padding-top:150px;
-
 }
+
 .join_left_text {
   font-size: 2.5rem;
   font-weight: 800;
@@ -337,7 +353,7 @@ margin-top: -30px;
 
 }
 .join_right_text {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #FFFFFF;
 }
@@ -356,7 +372,7 @@ margin-top: -30px;
   }
 
   .join_right_text {
-    font-size: 2rem;
+    font-size: 0.9rem;
   }
 
   .join_left_text {
@@ -369,7 +385,13 @@ margin-top: -30px;
   }
 
   .side {
-    padding: 120px 20px 20px 20px;
+   
+  max-width: 330px;
+  min-height:100px;
+  text-align: center;
+  padding: 30px 50px 30px;
+  margin-bottom: 10px;
+  border-radius: 14px;
   }
 
   .join_left {
@@ -454,7 +476,7 @@ margin-top: -30px;
   }
 
   .email {
-    max-width: 250px;
+    max-width: 200px;
     height: 45px;
     font-size: 0.9rem;
     padding: 0 10px;
@@ -470,6 +492,10 @@ margin-top: -30px;
     width: 320px;
     height: 342px;
   }
+  .join_section h3 {
+  font-size: 1.5rem;
+  
+}
 }
 .footer_container{
   max-width: 1440px;
@@ -534,6 +560,10 @@ margin-top: -30px;
   left: 1200px;
   top: -1px;
   gap: 25px;
+}
+.twitter_icon{
+  width: 30px;
+  height: 30px;
 }
 @media screen and  (max-width: 768px){
    .footer_container {
