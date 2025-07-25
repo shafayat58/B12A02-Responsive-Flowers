@@ -394,7 +394,7 @@ margin-top: -30px;
   }
 
   .join_right_text {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .join_left_text {
@@ -404,6 +404,9 @@ margin-top: -30px;
   .top, .down {
     max-width: 100%;
     padding: 60px 30px 30px 30px;
+  }
+  .down{
+    border-radius: 0px;
   }
 
   .side {
