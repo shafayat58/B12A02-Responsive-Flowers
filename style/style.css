@@ -269,7 +269,7 @@ margin-top: -30px;
   }
   .plants_lover_right h3{
   
-  font-size:1.8rem ;
+  font-size: 1.8rem ;
   
 }
 .plants_lover_right li{
@@ -578,7 +578,7 @@ margin-top: -30px;
   flex-direction: row;
   justify-content: center;
   position: absolute;
-  left: 1200px;
+  left: 1050px;
   top: -1px;
   gap: 25px;
 }
